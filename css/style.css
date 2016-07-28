@@ -1,0 +1,103 @@
+* {
+	padding:1% 0%;
+}
+img{
+	width: 100%;
+}
+button *{
+	display: inline;
+}
+/*HEADER*/
+
+header h3{
+	color: grey;
+	padding-top: 7%;
+}
+header input{
+	margin-top: 10%;
+}
+a{
+	text-decoration: none;
+}
+header{
+	margin:-4%;
+}
+p{
+	font-size: 15px;
+}
+/*BUSCADOR*/
+input[type=text] {
+    width: 100%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+}
+
+/*SECTION*/
+/*LOGO BIG HERO 6*/
+#logobh6{
+	 width: 48px; 
+	 height: 68px;
+	 margin-top: 25%;
+	 margin-left:50%; 
+}
+/*BIG HERO 6*/
+#bighero6{
+	background-image: url("../img/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+h1{
+	border-bottom: 1px solid #D3D3D3;
+	padding-bottom: 4%
+}
+p, a, h4, h1, h3{
+	color: #D3D3D3;
+}
+#allage{
+	border: 1px solid #6AB37C;
+	background-color: #383838;
+	padding: 10%;
+	border-radius: 10%;
+}
+#allage a{
+	color: #6AB37C;
+}
+.bticket{
+	background-color: #BC7B29;
+	border-radius: 5%;
+	border: none;
+	padding: 3%;
+	
+}
+#watch{
+	padding:3%;
+	border-radius: 5%;
+}
+/*PELICULAS*/
+#peliculas, #watch{
+	background-color: #E0B637;
+	border:none;
+}
+/*VIDEO*/
+section iframe{
+	width:950px; 
+	height: 315px;
+	margin-top: -2%;
+	margin-left: -1%;
+}
+
+/*BOOK TICKET*/
+.linea{
+	border-bottom: 1px solid #D3D3D3;
+}
+h5, #more{
+	color: #BC7B29;
+}
+/*FOOTER*/
+footer{
+	background-color: #F3F3F3;
+}
